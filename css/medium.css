@@ -1,0 +1,14 @@
+@media only screen and (min-width: 32.5em) {
+
+    
+    header {
+        background-color: #e76f51;color:white ;
+        padding:30px;
+        border-radius:10px;
+    }
+    img {
+        border-radius:10px;
+        float: right;
+          
+    }
+}

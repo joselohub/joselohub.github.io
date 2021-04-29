@@ -3,13 +3,14 @@
 
 body {
     max-width: 960px;
-    margin: 0 auto;
+    margin: 0;
+    text-align: center;
 }
 
 header {
     background-color: #e76f51;color:white ;
     padding:30px;
-    border-radius:10px;
+    
 }
 h1 {
     margin: 0;
@@ -19,7 +20,7 @@ h1 {
 h2 {
     font-family: 'Roboto', sans-serif;
     padding: 9px;
-    
+    text-align: center;
     margin: 0;
 }
 ul {
@@ -29,7 +30,8 @@ ul {
 
 img {
     border-radius:10px;
-    float: right;   
+    float: center;
+       
 }
 
 main {
@@ -48,8 +50,4 @@ footer {
 p {
     margin:0;
 }
-@media screen and (max-width: 550px) { 
-    main {
-    display: block;
-    }
-}
+
