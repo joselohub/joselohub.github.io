@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Roboto&display=swap');
+
 
 body {
-    max-width: 960px;
+    
     margin: 0;
     text-align: center;
 }
