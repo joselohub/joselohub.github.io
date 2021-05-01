@@ -1,53 +1,12 @@
-main {
-    
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: white;
-    padding:60px;
-    gap: 30px;
-   
-    
-}
-
+@media only screen and (min-width: 60em){
+    main {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        padding:60px;
+        gap: 20px;
+    }
 section {
-    background-color:#eeee;
+     border-radius: 10px;
+     padding:30px;
 }
-
-header {
-    background-color: #e76f51;color:white ;
-    padding:30px;
-    
-}
-h1 {
-    margin: 0;
-    font-family: 'Original Surfer', cursive;
-}
-
-h2 {
-    font-family: 'Roboto', sans-serif;
-    padding: 9px;
-    text-align: center;
-    margin: 0;
-}
-ul {
-    margin:0;
-    font-family: 'Roboto', sans-serif;
-}
-
-img {
-    border-radius:10px;
-    float: center;
-  
-       
-}
-
-
-footer {
-    text-align: center;
-    padding:30px;
-    background-color: #e76f51;color:white ;
-    font-family: 'Roboto', sans-serif;
-}
-p {
-    margin:0;
 }

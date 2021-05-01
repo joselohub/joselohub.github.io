@@ -1,14 +1,30 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Roboto&display=swap');
 
 body {
     
+    
     margin: 0;
     text-align: center;
+}
+main {
+    
+    text-align: center;
+    display:grid;
+    grid-template-columns:1fr ;
+    background-color: white;
+  
 }
 
 header {
     background-color: #e76f51;color:white ;
     padding:30px;
+    
+}
+section {
+    margin: 10px;
+    text-align: center;
+    background-color:#eeee
     
 }
 h1 {
@@ -27,17 +43,6 @@ ul {
     font-family: 'Roboto', sans-serif;
 }
 
-img {
-    border-radius:10px;
-    float: center;
-       
-}
-
-main {
-    background-color: white;
-    padding:60px;
-    
-}
 
 footer {
     text-align: center;
