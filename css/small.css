@@ -3,14 +3,12 @@
 
 body {
     text-align: center;
-    margin: 0;
-    text-align: center;
 }
 
 header {
     background-color: #e76f51;color:white ;
     padding:30px;
-    
+    text-align: center;
 }
 h1 {
     margin: 0;
@@ -24,20 +22,17 @@ h2 {
     margin: 0;
 }
 ul {
-    margin:0;
     font-family: 'Roboto', sans-serif;
 }
 
 img {
     border-radius:10px;
-    float: center;
-       
 }
 
 main {
     background-color: white;
     padding:60px;
-    
+    text-align: left;
 }
 
 footer {
