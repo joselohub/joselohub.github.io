@@ -2,33 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Roboto&display=swap');
 
 body {
-    
-    
-    margin: 0;
     text-align: center;
 }
 main {
-    
+    gap:20px;
+    padding:20px;
     text-align: center;
     display:grid;
     grid-template-columns:1fr ;
-    background-color: white;
-  
 }
 img {
+    
+    border-radius: 10px;
 }
 header {
     background-color: #e76f51;color:white ;
-    padding:30px;
+    padding:20px;
     
 }
 section {
+    display:grid;
+    grid-template-columns: 1fr;
+    padding:30px;
     text-align: center;
-    background-color:#eeee
+    background-color:#eeee;
+
     
 }
 h1 {
-    margin: 0;
     font-family: 'Original Surfer', cursive;
 }
 
@@ -36,12 +37,14 @@ h2 {
     font-family: 'Roboto', sans-serif;
     padding: 9px;
     text-align: center;
-    margin: 0;
 }
 ul {
-    margin:0;
     font-family: 'Roboto', sans-serif;
-    padding: 20px;
+
+}
+a {
+
+    font-family: 'Roboto', sans-serif;
 }
 
 footer {
@@ -53,8 +56,5 @@ footer {
 p {
     font-family: 'Roboto', sans-serif;
     
-    padding-top: 10px;
-}
-a {
-font-family: 'Roboto', sans-serif;
+    
 }
