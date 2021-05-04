@@ -16,7 +16,6 @@ main {
   
 }
 img {
-    margin-top: 20px;
 }
 header {
     background-color: #e76f51;color:white ;
@@ -24,7 +23,6 @@ header {
     
 }
 section {
-    margin: 10px;
     text-align: center;
     background-color:#eeee
     
