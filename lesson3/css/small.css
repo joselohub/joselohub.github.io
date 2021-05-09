@@ -1,0 +1,29 @@
+header {
+    background: #1a535c;
+}
+
+/*navigation*/
+nav {
+    background:#f7fff7;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li a {
+    display:block;
+    color: #333;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+nav a:hover {
+    background: #4ecdc4;
+    color:white;
+    border-radius: 10px;
+}
+
