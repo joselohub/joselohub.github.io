@@ -1,10 +1,18 @@
-header {
+/* Fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+header ,footer {
     background: #1a535c;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    
 }
 
 /*navigation*/
 nav {
-    background:#f7fff7;
+    background:#4ecdc4;
     text-align: center;
 }
 nav ul {
@@ -20,10 +28,25 @@ nav li a {
     padding: 0.75rem;
     text-decoration: none;
     font-size: 0.95rem;
+    font-family: "Open Sans", sans-serif;
 }
 nav a:hover {
-    background: #4ecdc4;
-    color:white;
+    background: #f7fff7;
+    color:black;
     border-radius: 10px;
 }
+.title {
+    text-align:center;
+    font-family: "Merriweather", serif;
+    color: white;
+    font-size: 50px;
+}
+.RED {
+    color: tomato;
+}
 
+/* main*/
+main {
+    text-align: center;
+    font-family:  "Open Sans", sans-serif;
+}

@@ -5,4 +5,9 @@
     nav ul li {
         flex: 1 1 100%;
     }
+    nav a:hover {
+        background: #f7fff7;
+        color:black;
+        border-radius: 0;
+    }
 }
