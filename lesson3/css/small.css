@@ -2,12 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
-header ,footer {
+body {
+    margin: 0px;
+}
+header  {
     background: #1a535c;
     text-align: center;
-    padding: 0;
+
     color: white;
     
+}
+footer {
+    background: #1a535c;
+    text-align: center;
+    padding: 50px;
 }
 
 /*navigation*/
