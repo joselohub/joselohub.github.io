@@ -1,0 +1,14 @@
+@media screen and (min-width:35em) {
+    nav button {
+        display: none;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(85,85,85);
+        padding: .8rem 1rem;
+    }
+
+}
