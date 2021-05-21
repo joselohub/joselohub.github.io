@@ -7,10 +7,11 @@
 * { -noz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
  nav button {
-    margin: .2rem 2%;
+    margin: .7rem 42%;
     background-color:transparent ;
     border:none ;
-    font-size: 1.6rem ;
+    color:#555;
+    font-size: 1rem ;
 }
 nav {
     background-color: #ffe66d;
@@ -20,6 +21,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 
 }
 nav ul li a {
