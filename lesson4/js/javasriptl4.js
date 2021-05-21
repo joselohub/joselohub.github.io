@@ -3,3 +3,8 @@ document.getElementById("Ayear").innerHTML = year.getFullYear();
 
 var jdate = document.lastModified;
 document.getElementById("last-update").innerHTML = jdate;
+
+function toggleMenu(){
+    document.getElementById("primaryNav").classList.toggle("hide")
+}
+
