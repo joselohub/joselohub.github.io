@@ -1,46 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
-/* prevent of ajustment of font size after orientation changes */
- html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
- 
- /*-------apply a natural box layout model to all elements------------*/
-* { -noz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
- nav button {
-    margin: .7rem 42%;
-    background-color:transparent ;
-    border:none ;
-    color:#555;
-    font-size: 1rem ;
-}
 nav {
+    margin: 0 auto;
+    max-width: 760px;
     background-color: #ffe66d;
     font-family: "Open Sans", sans-serif;
 }
-nav ul {
+.navigation {
     list-style-type: none;
     padding: 0;
-    margin: 0;
-    text-align: center;
 
 }
-nav ul li a {
-    /*text-align: center;*/
+.navigation li:first-child {
     display: block;
-    padding:.8rem 2%;
     text-decoration: none;
     color:#555;
-    border-top:  1px solid rgba(0,0,0,0.3);
+}
+.navigation li {
+    display: none;
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
 }
 nav ul li a:hover {
     background-color:rgba(85,85,85); color: #ffe66d;
 }
-nav ul.hide {
-    display: none;
+.responsive li {
+    display: block;
 }
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }

@@ -1,19 +1,15 @@
-@media screen and (min-width:41.25em) {
-    nav button {
-        display: none;
+@media screen and (min-width:32.5em) {
+    .navigation {
+        display: flex;
     }
-    nav ul.hide {
+    .navigation li {
         display: block;
+        flex: 1 1 auto;
     }
-    nav ul {
-        margin-left: 2%;
+    nav a {
+        text-align: center;
     }
-    nav ul li {
-        float: left;
-    }
-    nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
-        padding: .8rem 1rem;
+    .navigation li:first-child {
+        display: none;
     }
 }
