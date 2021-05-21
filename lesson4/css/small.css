@@ -2,12 +2,13 @@
 
 
 nav {
-    margin: 0 auto;
-    max-width: 760px;
+    
     background-color: #ffe66d;
     font-family: "Open Sans", sans-serif;
 }
 .navigation {
+    margin: 0 auto;
+    max-width: 760px;
     list-style-type: none;
     padding: 0;
 
@@ -32,3 +33,35 @@ nav ul li a:hover {
 .responsive li {
     display: block;
 }
+
+/*----------------------main---------------------*/
+main ,footer{
+    text-align: center;
+}
+header, footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #fdeb91;
+}
+footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #fdeb91;
+}
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px;
+    padding: 15px;
+    background-color: #4ecdc4;
+    color: #f7fff7;
+}
+.contentbox-forecast{
+    display: block;
+    margin: 10px auto;
+    border: 1px;
+    padding: 15px;
+    background-color: #f7fff7;
+    color: #4ecdc4;
+}
+
