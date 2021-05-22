@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
 nav {
     
@@ -37,6 +37,13 @@ nav ul li a:hover {
 /*----------------------main---------------------*/
 main ,footer{
     text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(65, 64, 64);
+}
+.title {
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(65, 64, 64);
+    font-size: 60px;
 }
 header, footer {
     padding: 15px;
@@ -44,7 +51,8 @@ header, footer {
     background-color: #fdeb91;
 }
 footer {
-    padding: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     text-align: center;
     background-color: #fdeb91;
 }
@@ -63,5 +71,9 @@ footer {
     padding: 15px;
     background-color: #f7fff7;
     color: #4ecdc4;
+}
+h3 {
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(65, 64, 64);
 }
 
