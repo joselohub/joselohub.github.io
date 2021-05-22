@@ -43,7 +43,7 @@ main ,footer{
 .title {
     font-family: 'Balsamiq Sans', cursive;
     color: rgb(65, 64, 64);
-    font-size: 60px;
+    font-size: 40px;
 }
 header, footer {
     padding: 15px;
