@@ -1,0 +1,24 @@
+@media screen and (min-width:32.5em) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    nav a {
+        text-align: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .contentbox {
+        margin: 10px auto;
+        max-width: 760px;
+    }
+    .contentbox-forecast {
+        margin: 10px auto;
+        max-width: 760px;
+    }
+}
