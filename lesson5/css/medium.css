@@ -2,12 +2,6 @@
     .navigation {
         display: flex;
     }
-    .contenttitle {
-        display: flex;
-        align-items:flex-end;
-        justify-content:space-around;
-    }
-    
     .navigation li {
         display: block;
         flex: 1 1 auto;

@@ -6,10 +6,9 @@ nav {
     background-color: #ffe66d;
     font-family: "Open Sans", sans-serif;
 }
-
 .navigation {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 760px;
     list-style-type: none;
     padding: 0;
 
@@ -27,8 +26,7 @@ nav {
     padding: 0.75rem;
     text-align: center;
     text-decoration: none;
-    transition:all 0.4s linear;
-    color:rgb(65, 64, 64);
+    color: rgb(65, 64, 64);
 }
 nav ul li a:hover {
     background-color:rgba(85,85,85); color: #ffe66d;
@@ -47,7 +45,6 @@ main ,footer{
     font-family: 'Balsamiq Sans', cursive;
     color: rgb(65, 64, 64);
     font-size: 30px;
-    
 }
 header, footer {
     padding: 15px;
@@ -60,11 +57,8 @@ footer {
     text-align: center;
     background-color: #fdeb91;
 }
-
-
 .contentbox {
     display: block;
-    text-align: center;
     margin: 10px auto;
     border-style: solid;
     border-width: 1px;
@@ -75,7 +69,6 @@ footer {
 }
 .contentbox-forecast {
     display: block;
-    text-align: center;
     margin-bottom: 10px auto;
     border-style: solid;
     border-width: 1px;
@@ -85,26 +78,7 @@ footer {
     color: #4ecdc4;
 }
 h3 {
-    text-align: center;
     font-family: 'Balsamiq Sans', cursive;
     color: rgb(65, 64, 64);
-    
 }
 
-.herodiv {
-    margin: 10px auto;
-    position: relative;
-    border: 1px dashed cyan;
-    width: 960px ;
-    height: 300px;
-   
-}
-
-.weather-summary {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    background-color: #fdeb91;
-    padding: 10px;
-    box-shadow: 0 0 30px;
-}
