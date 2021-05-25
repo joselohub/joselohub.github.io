@@ -6,6 +6,7 @@ nav {
     background-color: #ffe66d;
     font-family: "Open Sans", sans-serif;
 }
+
 .navigation {
     margin: 0 auto;
     max-width: 960px;
@@ -46,6 +47,7 @@ main ,footer{
     font-family: 'Balsamiq Sans', cursive;
     color: rgb(65, 64, 64);
     font-size: 30px;
+    
 }
 header, footer {
     padding: 15px;
@@ -58,6 +60,8 @@ footer {
     text-align: center;
     background-color: #fdeb91;
 }
+
+
 .contentbox {
     display: block;
     text-align: center;
