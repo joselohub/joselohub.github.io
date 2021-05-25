@@ -1,6 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
+
+
+
+
+
+
+/*---------------------header--------------------*/
+header {
+    padding: 15px;
+    text-align: center;
+    background-color: #fdeb91;
+}
+.title {
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(65, 64, 64);
+    font-size: 30px;
+}
+
+
+
+
+
+
+/*---------------------nav--------------------*/
 nav {
     
     background-color: #ffe66d;
@@ -35,28 +59,19 @@ nav ul li a:hover {
     display: block;
 }
 
+
+
+
+
+
+
 /*----------------------main---------------------*/
-main ,footer{
+main {
     text-align: center;
     font-family: 'Balsamiq Sans', cursive;
     color: rgb(65, 64, 64);
 }
-.title {
-    font-family: 'Balsamiq Sans', cursive;
-    color: rgb(65, 64, 64);
-    font-size: 30px;
-}
-header, footer {
-    padding: 15px;
-    text-align: center;
-    background-color: #fdeb91;
-}
-footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    text-align: center;
-    background-color: #fdeb91;
-}
+
 .contentbox {
     display: block;
     margin: 10px auto;
@@ -82,3 +97,25 @@ h3 {
     color: rgb(65, 64, 64);
 }
 
+
+
+
+
+
+
+/*-----------------------footer-------------------------*/
+footer{
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(65, 64, 64);
+    padding: 15px;
+    text-align: center;
+    background-color: #fdeb91;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: #fdeb91;
+}
+footer a {
+    text-decoration: none;
+}
