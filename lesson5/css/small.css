@@ -15,10 +15,21 @@ header {
     justify-content: center;
     background-color: #fdeb91;
 }
-.headings {
+.subtitle {
     font-family: 'Balsamiq Sans', cursive;
     color: rgb(65, 64, 64);
-    font-size: 30px;
+    letter-spacing: 1pt;
+    font-size: .9rem;
+    
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+.headings h1 {
+    margin: 0;
+    font-size: 2.6rem;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 
