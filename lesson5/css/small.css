@@ -19,17 +19,18 @@ header {
     font-family: 'Balsamiq Sans', cursive;
     color: rgb(65, 64, 64);
     letter-spacing: 1pt;
-    font-size: .9rem;
+    font-size: .8rem;
     
 }
 .headings {
     display: flex;
     flex-direction: column;
-    padding-right: 20px;
+    
+    
 }
 .headings h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Balsamiq Sans', cursive;
 }
 
