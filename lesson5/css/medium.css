@@ -1,4 +1,19 @@
 @media screen and (min-width:32.5em) {
+
+    /*-----------------------header------------------------*/
+    header img {
+        width: 100%;
+    }
+    .headings h1 {
+        font-size: 3rem;
+    }
+    .subtitle {
+        font-size: larger;
+    }
+
+
+
+    /*-----------------------nav------------------------*/
     .navigation {
         display: flex;
     }
@@ -13,6 +28,10 @@
         display: none;
     }
 
+
+
+
+/*-------------------main-----------------------*/
     .contentbox {
         margin: 10px auto;
         max-width: 760px;

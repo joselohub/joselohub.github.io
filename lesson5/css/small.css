@@ -109,8 +109,27 @@ h3 {
     font-family: 'Balsamiq Sans', cursive;
     color: rgb(65, 64, 64);
 }
-
-
+/*-------hero image/weather summary-----------*/
+.contentbox1 {
+    margin: 10px auto;
+    position: relative;
+    max-width: 760px;
+}
+.statis h2 {
+    margin: 0;
+}
+.statis {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    background:#4ecdc4;
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #333;
+}
+.contentbox1 img {
+    width: 100%;
+}
 
 
 
