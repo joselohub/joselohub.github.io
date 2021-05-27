@@ -14,4 +14,12 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 
 
+//what date in javascript is
+let thedate = new Date();
+//lets try 
+if (thedate.getDay() == 5){
+document.querySelector("#tbanner").style.display = 'block';
+}
+
+
 
