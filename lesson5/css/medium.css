@@ -34,10 +34,20 @@
 /*-------------------main-----------------------*/
     .contentbox {
         margin: 10px auto;
-        max-width: 760px;
+        max-width: 960px;
     }
     .contentbox-forecast {
         margin: 10px auto;
-        max-width: 760px;
+        max-width: 960px;
+    }
+    .statis { 
+        position: absolute;
+        top: 25px;
+        left: 50px;
+        background:#4ecdc4;
+        border: 1px solid #000;
+        padding: .5rem;
+        box-shadow: 0 0 30px #333;
+        opacity: .9;
     }
 }
