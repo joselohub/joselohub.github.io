@@ -10,9 +10,16 @@ button.addEventListener('click',() => {
         let deletebutton = document.createElement('button');
         //change some properties........textcontent
         li.textContent = favchap.value;
-        deletebutton.textContent = 'x';
+        deletebutton.textContent = '❌';
         //add the
         li.append(deletebutton);
         output.append(li);
+        deletebutton.addEventListener('click' , function(){
+            output.removeChild(li);
+            favchap.focus;
+
+        });
+        favchap.value ='';
+        favchap.focus;
     }
 })

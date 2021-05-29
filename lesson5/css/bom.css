@@ -21,10 +21,11 @@ main {
 	margin: 0.5rem auto;
 	border: 1px solid #999;
 	padding: 0.5rem;
-	background-color: #bed;
+	background-color: rgb(191, 238, 189);
 	display: grid;
 	grid-template-columns: 1fr;
 	width: 95%;
+	border-radius: 10px;
 }
 
 input,
@@ -32,6 +33,7 @@ button {
 	padding: 0.35rem;
 	margin-left: 1rem;
 	font-size: 1.1rem;
+	
 }
 
 input {
