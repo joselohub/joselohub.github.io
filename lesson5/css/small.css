@@ -184,7 +184,9 @@ h3 {
     font-family: 'Balsamiq Sans', cursive;
     color: rgb(65, 64, 64);
 }
-
+img {
+    margin: 0;
+}
 .imgarticle {
     width: 50%;
     float: left;
