@@ -108,20 +108,19 @@ main {
 .contentbox-forecast {
     display: block;
     margin-bottom: 0 auto;
-    
     padding: 15px;
     background-color: #f7fff7;
     color: #1a535c;
 }
 .flex {
-    display: flex;
+    display: block;
     /*flex direction row */
     /*combine row and wrap */
     flex-flow:row wrap;
 
 }
 .flex-col {
-    flex:1 1 auto;
+    display:flex;
     background-color:#bcf3ef;
     border-bottom: 2px solid #f7fff7;
     border-left: 2px solid #f7fff7;
@@ -129,7 +128,8 @@ main {
 
 }
 .flex-col {
-   
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 .flex-col:hover {
@@ -184,9 +184,7 @@ h3 {
     font-family: 'Balsamiq Sans', cursive;
     color: rgb(65, 64, 64);
 }
-img {
-    margin: 0;
-}
+
 .imgarticle {
     width: 50%;
     float: left;
@@ -209,7 +207,6 @@ img {
     left: 45px;
     background:#4ecdc4;
     border-radius: 4px;
-    
     padding: .2rem;
     box-shadow: 0 0 30px #333;
     opacity: .9;
