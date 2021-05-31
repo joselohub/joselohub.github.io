@@ -32,13 +32,16 @@
 
 
 /*-------------------main-----------------------*/
+   
     .contentbox {
+        display:flex;
+        align-items: center;
+        justify-content: center;
         margin: 10px auto;
-        max-width: 960px;
-    }
-    .contentbox-forecast {
-        margin: 10px auto;
-        max-width: 960px;
+        padding: 15px;
+        background-color: #4ecdc4;
+        color: #f7fff7;
+        border-radius: 4px;
     }
     .statis { 
         position: absolute;

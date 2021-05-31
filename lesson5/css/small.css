@@ -97,7 +97,9 @@ main {
 }
 
 .contentbox {
-    display: block;
+    display:block;
+    align-items: center;
+    justify-content: center;
     margin: 10px auto;
     padding: 15px;
     background-color: #4ecdc4;
@@ -234,4 +236,14 @@ footer{
 }
 footer a {
     text-decoration: none;
+}
+/*Contact*/
+
+.cimage {
+   
+   margin: 15px;
+   
+}
+.social {
+    text-align: right;
 }
