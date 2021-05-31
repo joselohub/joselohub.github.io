@@ -107,7 +107,7 @@ main {
 /*-------------forecast----------*/
 .contentbox-forecast {
     display: block;
-    margin-bottom: 0 auto;
+    margin-bottom: 0 ;
     padding: 15px;
     background-color: #f7fff7;
     color: #1a535c;
