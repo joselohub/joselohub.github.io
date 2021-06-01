@@ -238,10 +238,9 @@ footer a {
 /*Contact*/
 
 .cimage {
-   
-   
-   
+    
 }
-.social {
+.social a {
+    text-decoration: none;
     text-align: right;
 }
