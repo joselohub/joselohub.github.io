@@ -211,6 +211,20 @@ h3 {
     box-shadow: 0 0 30px #333;
     opacity: .9;
 }
+.weatherdetails{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: .25rem;
+}
+.weatherdetails .label {
+    text-align: right;
+}
+.weatherdetails p {
+    margin: 0;
+}
+
+.statis h2 { border-bottom: .5px solid rgb(65, 64, 64); padding-bottom: 2px; margin: 5px 5px 10px 5px;}
+.statis div { line-height: 1.2; padding: .1rem; margin: 0;}
 .contentbox1 img {
     width: 100%;
 }
