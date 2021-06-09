@@ -6,6 +6,7 @@ body {
     text-align: center;
     display: grid;
     grid-template-columns: auto;
+    gap: 10px;
     justify-content: center;
    
 }
@@ -14,8 +15,16 @@ h1 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
 }
-img {
-    
 
     
-}
+ img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+ img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  
+
+
