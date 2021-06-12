@@ -53,5 +53,9 @@
         box-shadow: 0 0 30px #333;
         opacity: .9;
     }
+    .gallery-07{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 

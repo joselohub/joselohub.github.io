@@ -90,4 +90,8 @@
     .cimage {
         margin-right: 20px;
     }
+    .gallery-07{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
