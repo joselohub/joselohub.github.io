@@ -1,7 +1,7 @@
 const imagesToLoad = document.querySelectorAll('img[data-src]');
 
 const imgOptions = {
-    threshold: 0,
+    threshold: 1,
     rootMargin: "0px 0px 50px 0px"
 };
 
@@ -32,13 +32,6 @@ else {
 }
 
 
-document.getElementById("assignment-last-modified").innerHTML = document.lastModified;
-document.getElementById("copy-year").innerHTML = new Date().getFullYear();
-
-function toggleMenu() {
-    
-    document.getElementById("primaryNav").classList.toggle("hide");
-   }
 
 
   

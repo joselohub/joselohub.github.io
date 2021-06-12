@@ -277,17 +277,20 @@ footer a {
     justify-content: center;
     align-items: center;
 }
-.imgfore {
+
+.gallery-07 img {
     width:100%;
     padding: 0;
    
 
 }
-.imgfore[data-src] {
+
+.gallery-07 img[data-src] {
     filter: blur(0.2em);
   }
   
- .imgfore {
+
+.gallery-07   img {
     filter: blur(0em);
-    transition: filter 0.5s;
+    transition: filter 1s;
   }
