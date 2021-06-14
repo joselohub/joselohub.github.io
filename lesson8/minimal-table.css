@@ -1,5 +1,5 @@
 html {
-    font-family: sans-serif;
+    font-family: Ubuntu, sans-serif;
   }
   
   table {
@@ -13,10 +13,14 @@ html {
     border: 1px solid rgb(190,190,190);
     padding: 10px 20px;
   }
-  
-  th {
-    background-color: rgb(235,235,235);
+  thead, tfoot {
+    background-color: #7fb9c2;
   }
+  
+ tbody  th ,#nov-sales-g{
+   background-color: #628ca6;
+   color: white;
+ }
   
   td {
     text-align: center;
