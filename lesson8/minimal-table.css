@@ -1,15 +1,13 @@
 html {
     font-family: Ubuntu, sans-serif;
+    margin: auto;
   }
   
   table { 
-    width: 350px;
-    position: absolute;
     box-shadow: 10px 10px 30px #333;
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
-   
-    margin:auto;
+    margin: auto;
     
   }
   
