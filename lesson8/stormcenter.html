@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm Center</title>
+    <script src="js/javasriptl4.js"></script>
+</head>
+<body>
+    <form method="GET" action="thanks.html">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label>Full Name*<input type="text" name="full-name"  required pattern="[A-Za-z]{5}"></label>
+            <label>Email*<input type="email" id="email" placeholder="someone@gmail.com" required></label>
+            <label>Phone<input type="tel" name="phone"  required></label>
+            <label for="zip">Zip Code<input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)"
+                 autocomplete="shipping postal-codep">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Storm details</legend>
+            <label>Storm Date<input type="date" name="theDate"></label>
+                <label for="stormType">Storm type</label>
+                <input list="Data-list" id="stormD" name="theDate">
+                <datalist id="Data-list">
+                    <option value="Flash">
+                    <option value="Floot">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
+                <label class="rating-storm" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                    oninput="adjustRating(this.value)" 
+                    onchange="adjustRating(this.value)">
+			        <span id="ratingvalue">5</span>
+                </label>
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+
+
+
+
+
+
+/*---------------------header--------------------*/
+aside {
+    display: none;
+}
+#tbanner{
+    background: #ff6b6b;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #f7fff7;
+    padding: 10px;
+}
+header {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdeb91;
+}
+.subtitle {
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(65, 64, 64);
+    letter-spacing: 1pt;
+    font-size: .8rem;
+    
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.headings h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+
+
+
+
+/*---------------------nav--------------------*/
+nav {
+    
+    background-color: #ffe66d;
+    font-family: "Open Sans", sans-serif;
+}
+.navigation {
+    margin: 0 auto;
+    max-width: 960px;
+    list-style-type: none;
+    padding: 0;
+
+}
+.navigation li:first-child {
+    display: block;
+    text-decoration: none;
+    color:#555;
+}
+.navigation li {
+    display: none;
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(65, 64, 64);
+}
+nav ul li a:hover {
+    background-color:rgba(85,85,85); color: #ffe66d;
+}
+.responsive li {
+    display: block;
+}
+
+
+
+
+
+
+
+/*----------------------main---------------------*/
+main {
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(65, 64, 64);
+}
+
+.contentbox {
+    display:block;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #4ecdc4;
+    color: #f7fff7;
+    border-radius: 4px;
+}
+/*-------------forecast----------*/
+.contentbox-forecast {
+    display: block;
+    margin-bottom: 0 ;
+    padding: 15px;
+    background-color: #f7fff7;
+    color: #1a535c;
+}
+.flex {
+    display: block;
+    /*flex direction row */
+    /*combine row and wrap */
+    flex-flow:row wrap;
+
+}
+.flex-col {
+    display:flex;
+    background-color:#bcf3ef;
+    border-bottom: 2px solid #f7fff7;
+    border-left: 2px solid #f7fff7;
+    border-radius: 10px;
+
+}
+.flex-col {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.flex-col:hover {
+    opacity: .75;
+    background-color: #4ecdc4;
+    color: white;
+}
+
+
+.col-head {
+    display: block;
+    padding: 5px;
+   
+    text-align: center;
+}
+img {
+   padding: 0.25rem;
+}
+.data {
+    display:block;
+    padding:0 5px 5px;
+    font-size: .8rem;
+    text-align: center;
+}
+.col-head {
+    font-weight: 700;
+	font-size: 1rem;
+	
+}
+
+
+
+.contentbox2 {
+    font-family: "Open Sans", sans-serif;
+    display: block;
+    max-width: 960px;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 4px;
+    background-color:rgb(218, 218, 218);
+    color: #333;
+    
+
+}
+table {
+    width: 100%;
+   
+   
+  }
+
+h3 {
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(65, 64, 64);
+}
+
+.imgarticle {
+    width: 50%;
+    float: left;
+    
+}
+
+
+/*-------hero image/weather summary-----------*/
+.contentbox1 {
+    margin: 15px auto;
+    position: relative;
+    max-width: 960px;
+}
+.statis h2 {
+    margin: 0;
+}
+.statis {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    background:#4ecdc4;
+    border-radius: 4px;
+    padding: .2rem;
+    box-shadow: 0 0 30px #333;
+    opacity: .9;
+}
+
+.weatherdetails .label {
+    text-align: right;
+}
+.weatherdetails .value {
+    text-align: left;
+}
+
+.weatherdetails p {
+    margin: 5px;
+}
+
+.statis h2 {
+     border-bottom: .5px solid rgb(65, 64, 64); padding-bottom: 2px; margin: 5px 5px 10px 5px;
+    }
+.statis div {
+     line-height: 1.2; padding: .1rem; margin: 0;
+    }
+.contentbox1 img {
+    width: 100%;
+}
+
+
+
+
+
+/*-----------------------footer-------------------------*/
+footer{
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(65, 64, 64);
+    padding: 15px;
+    text-align: center;
+    background-color: #fdeb91;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: #fdeb91;
+}
+footer a {
+    text-decoration: none;
+}
+/*Contact*/
+
+.main-gallery {
+    background: #f7fff7;
+}
+.social a {
+    text-decoration: none;
+    text-align: right;
+}
+.gallery-07{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+.figureplaceholder:hover {
+    box-shadow: 0 0 50px #333; 
+} 
+.figureplaceholder {
+    border: 2px solid #bbb;
+    padding:5px;
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-07 img {
+    width:100%;
+    padding: 0;
+   
+
+}
+
+.gallery-07 img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+
+.gallery-07   img {
+    filter: blur(0em);
+    transition: filter 1s;
+  }
