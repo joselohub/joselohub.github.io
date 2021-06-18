@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
 /*************** storm form **************/
+
 main {
    
     min-height: 20rem;
 }
 form {
-   
+   font-family: 'Balsamiq Sans', cursive;
     
 }
 form fieldset {
