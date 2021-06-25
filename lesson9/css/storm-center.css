@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+/*************** storm form **************/
+
+main {
+   
+    min-height: 20rem;
+}
+form {
+   font-family: 'Balsamiq Sans', cursive;
+    
+}
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2% ;
+}
+form legend {
+    color: blue; 
+    padding: 0 .5rem ;
+}
+ form label.top ,form div{
+    display: block;
+    padding-top: 1rem;
+    color: rgb(146, 49, 49);
+    font-size: .8rem;
+ }
+  form label.top input ,form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 5px;
+    padding:.75rem;
+    color:#555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgb(230, 230, 230);
+  }
+  form label.mid {
+    display: block;
+    padding-top: 1rem;
+    color: rgb(146, 49, 49);
+    font-size: .8rem;
+  }
+  form label.mid input ,form label.mid select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 5px;
+    padding:.75rem;
+    color:#555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgb(230, 230, 230);
+  }
+ label.mid2 {
+      display: block;
+      padding:.75rem;
+  }
+  form input.sbutton {
+      border: none;
+      background-color: rgb(158, 116, 11);
+      color: white;
+      border-radius: 1rem;
+      padding: .75rem 1.5rem;
+      margin: 0 0 2rem 2%;
+      width: 96%;
+      max-width: 20rem;
+  }
+   form label.top input:required {
+       border-left: solid 6px red;
+   }
+   form label.top input:required:valid {
+    border-left: solid 6px rgb(48, 155, 57);
+}
+ 
+  

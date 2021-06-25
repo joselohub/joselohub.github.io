@@ -26,6 +26,6 @@ fetch(requestURL)
       card.appendChild(place);
       card.appendChild(img);
 
-      document.querySelector('div.cards').appendChild(card);
+      document.querySelector('div.div.cards').appendChild(card);
     }
   });

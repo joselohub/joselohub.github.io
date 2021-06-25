@@ -5,44 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Storm Center</title>
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/storm-center.css">
-    <script defer src="js/javasriptl4.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/javasriptl4.js"></script>
 </head>
 <body>
-    <aside id="tbanner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</aside>
-    <header>
-        <picture>
-            <img src="images/logowater.png" alt="logo1" >
-        </picture>
-        <section class="headings">  
-            <h1>AdmosfeRED</h1>
-            <div class="subtitle">
-                <h3>Weather Forecast</h3>
-            </div>
-        </section>
-    </header>
-    <nav >
-        <ul class="navigation">
-            <li><a class="pmenu" href="#">&#9776; Menu</a></li>
-            <li><a href="preston-8.html">Home</a></li>
-            <li><a href="preston-8.html">Preston</a></li>
-            <li><a href="#">Soda Spring</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="storm-center.html">Storm Center</a></li>
-            <li><a href="gallery-7.html">Gallery</a></li>
-             
-        </ul>
-    </nav>
-    
+    <main>
         <form method="GET" action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
-                <label class="top">Full Name*<input type="text" name="full-name" placeholder="Full Name" required pattern="[A-Za-z]{5}"></label>
+                <label class="top">Full Name*<input type="text" name="full-name"  required pattern="[A-Za-z]{5}"></label>
                 <label class="top">Email*<input type="email" id="email" placeholder="someone@gmail.com" required></label>
                 <label class="top">Phone*<input type="tel" name="phone"placeholder="555-555-5555"  required pattern="(^(1?)(\s?)([\s]?)((\(\d{3}\))|(\d{3}))([\s]?)([\s-]?)(\d{3})([\s-]?)(\d{4})+$)"></label>
                 <label class="top" for="zip">Zip Code<input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)"
@@ -52,7 +24,7 @@
             <fieldset>
                 <legend>Storm details</legend>
                 <label class="mid">Storm Date<input type="date" name="theDate"></label>
-                    <label class="mid" for="stormType">Storm type<input list="Data-list" id="stormD" name="theDate" placeholder="Storm Type"></label> 
+                    <label class="mid" for="stormType">Storm type<input list="Data-list" id="stormD" name="theDate"></label> 
                     <datalist id="Data-list">
                         <option value="Flash">
                         <option value="Floot">
@@ -104,12 +76,8 @@
                 <legend>comments</legend>
                 <textarea name="commments"  rows="10" cols="30"></textarea>
             </fieldset> 
-            <input type="submit" value="Send" class="sbutton">
+            <input type="submit" value="submit" class="sbutton">
         </form>
-    <footer>
-        &copy; <span id="Ayear"></span> | Juan Jose Lozano Ochoa | Perú |  <a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
-        <br> Last Updated: <span id="last-update"></span>
-    </footer>
-    <script src="js/windchill.js"></script>
+    </main>
 </body>
 </html>
