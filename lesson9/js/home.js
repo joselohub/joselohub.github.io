@@ -11,7 +11,9 @@ fetch(requestURL)
     const towns = jsonObject['towns']; 
 
     for (let i = 0; i < towns.length; i++ ) {
-
+      
+    if(towns[i].name ==  "Soda Springs"|| towns[i].name ==  "Fish Haven"|| towns[i].name ==  "Preston"){
+      
     
       
       let card = document.createElement('section');
@@ -28,8 +30,8 @@ fetch(requestURL)
       population.textContent = 'Population: ' + towns[i].currentPopulation;
       rain.textContent = 'Anual Rain Fall: ' + towns[i].averageRainfall;
 
-      photo.setAttribute('src',"lesson9/images/image-gallery-2.jpg");
-      photo.setAttribute('alt', towns[i].name);
+      photo.setAttribute('src','images/'+`${towns[i].photo}`);
+      photo.setAttribute('alt',` ${towns[i].name}!`);
       card.appendChild(name);
       card.appendChild(motto);
       card.appendChild(founded);
@@ -37,5 +39,6 @@ fetch(requestURL)
       card.appendChild(photo);
 
       document.querySelector('div.cards').appendChild(card);
+    }
     }
   });

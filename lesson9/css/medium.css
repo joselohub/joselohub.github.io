@@ -94,4 +94,20 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    /*home*/
+    .contentbox2 > section {
+        margin: auto;
+    }
+    section .cards {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: none;
+        
+    }
+   
+
+    section img {
+        max-width: 80%;
+
+    }
 }

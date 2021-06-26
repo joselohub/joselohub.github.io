@@ -160,20 +160,70 @@ img {
 	
 }
 
-
+/************home also****************/
 
 .contentbox2 {
     font-family: "Open Sans", sans-serif;
-    display: block;
+    display: flex;
     max-width: 960px;
     margin: 10px auto;
     padding: 15px;
     border-radius: 4px;
-    background-color:rgb(218, 218, 218);
     color: #333;
     
 
 }
+
+
+section  header {
+    color: #303030;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+ section h2 {
+    color: #335268;
+    text-align: center;
+    font-size: 2rem;
+}
+
+ section p {
+    text-align: center;
+    font-size: 1rem;
+}
+section {
+    margin: .5rem;
+    border-radius: 5px;
+}
+.cards section:hover {
+    box-shadow: 0 0  20px #303030;
+}
+.cards section {
+    background-color:  #4ecdc4;
+}
+
+section  img {
+   
+    display: block;
+    max-width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+
+
+section .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+
+
+
 table {
     width: 100%;
    
