@@ -59,21 +59,26 @@
     }
 
     /*contentbox2*/
-    
-    section .cards {
+    .cards {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
-        padding: 0%;
-    }
-
-    section img {
-        max-width: 80%;
-    }
-
-    section {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        margin: 0;
         padding: 0;
+        
     }
-   
-
+    .cards > section {
+        display: block;
+        background-color: #69aa69;
+       
+    }
+     
+     .cards section img {
+        width: 90%;
+        padding: 0;
+        margin-bottom: 2%;
+    }
+    
+    
 }
 

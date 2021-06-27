@@ -95,19 +95,16 @@
         grid-template-columns: 1fr 1fr;
     }
     /*home*/
-    .contentbox2 > section {
-        margin: auto;
-    }
-    section .cards {
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: none;
+    section {
+        display: flex;
+       
         
+        margin:0;
+        padding: 10px;
     }
-   
-
+    
     section img {
-        max-width: 80%;
-
+    margin: 10px;
     }
+    
 }

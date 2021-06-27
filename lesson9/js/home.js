@@ -15,7 +15,7 @@ fetch(requestURL)
     if(towns[i].name ==  "Soda Springs"|| towns[i].name ==  "Fish Haven"|| towns[i].name ==  "Preston"){
       
     
-      
+      let data = document.createElement('div');
       let card = document.createElement('section');
       let name = document.createElement('h2');
       let motto = document.createElement("p");
@@ -32,13 +32,15 @@ fetch(requestURL)
 
       photo.setAttribute('src','images/'+`${towns[i].photo}`);
       photo.setAttribute('alt',` ${towns[i].name}!`);
-      card.appendChild(name);
-      card.appendChild(motto);
-      card.appendChild(founded);
-      card.appendChild(population);
+      data.appendChild(name);
+      data.appendChild(motto);
+      data.appendChild(founded);
+      data.appendChild(population);
+      card.appendChild(data);
       card.appendChild(photo);
 
       document.querySelector('div.cards').appendChild(card);
+      
     }
     }
   });
