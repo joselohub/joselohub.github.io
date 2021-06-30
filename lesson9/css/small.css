@@ -167,19 +167,19 @@ img {
     margin: auto;
     
 }
-.cards {
+.contentbox2 .cards {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
     margin: 0;
     padding: 0;
 }
-.cards > section {
+.contentbox2 .cards > section {
     background-color: #69aa69;
    
 }
  
- .cards section img {
+.contentbox2 .cards section img {
     width: 90%;
     padding: 0;
     margin-bottom: 3%;
@@ -283,9 +283,8 @@ footer a {
     grid-template-columns: 1fr ;
 }
 
-.figureplaceholder:hover {
-    box-shadow: 0 0 50px #333; 
-} 
+ 
+
 .figureplaceholder {
     border: 2px solid #bbb;
     padding:5px;

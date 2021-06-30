@@ -95,7 +95,7 @@
         grid-template-columns: 1fr 1fr;
     }
     /*home*/
-    section {
+    .contentbox2 section {
         display: flex;
        
         
@@ -103,7 +103,7 @@
         padding: 10px;
     }
     
-    section img {
+    .contentbox2 section img {
     margin: 10px;
     }
     
