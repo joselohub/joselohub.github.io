@@ -139,26 +139,24 @@ main {
 }
 
 
-.col-head {
+#dayofweek1, #dayofweek2, #dayofweek3, #dayofweek4, #dayofweek5 {
     display: block;
     padding: 5px;
    
     text-align: center;
+    font-weight: 700;
+	font-size: 1rem;
 }
 img {
    padding: 0.25rem;
 }
-.data {
+#forecast1, #forecast2, #forecast3, #forecast4, #forecast5  {
     display:block;
     padding:0 5px 5px;
     font-size: .8rem;
     text-align: center;
 }
-.col-head {
-    font-weight: 700;
-	font-size: 1rem;
-	
-}
+
 
 /************home also****************/
 .contentbox2 {
