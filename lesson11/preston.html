@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston weather page </title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/javasriptl4.js"></script>
+    <script defer src="js/weatherapi.js"></script>
+    <script defer src="forecast2.js"></script>
+</head>
+<body>
+    <aside id="tbanner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</aside>
+    <header>
+        <picture>
+            <img src="images/logowater.png" alt="logo1" >
+        </picture>
+        <section class="headings">  
+            <h1>AdmosfeRED</h1>
+            <div class="subtitle">
+                <h3>Weather Forecast</h3>
+            </div>
+        </section>
+    </header>
+    <nav >
+        <ul class="navigation">
+            <li><a class="pmenu" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Spring</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="storm-center.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+             
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston - Idaho</h2>
+        <div class="contentbox1">
+            <picture>
+                <source  media= "(min-width: 530px) and (max-width: 950px)" srcset="images/hero-medium.jpg">
+                <source  media="(min-width: 955px)" srcset="images/hero-large.jpg">
+                <img src="images/hero-small.jpg" alt="hero image">
+            </picture>
+            <section class="statis">
+                <h2>Weather Summary</h2>
+                <div class="weatherdetails">
+                    <p>Currently: <span id="currently">Overcast</span></p>
+                    <p>Temperature: <span id="current-temp"></span>&deg; F</p>
+                    <p>Humidity: <span id="humidity-preston"></span>%</p>
+                    <p>Wind Chill: <span id="wind-chill"></span>N/A</p>
+                    <p>Wind Speed: <span id="wind-speed"></span>mph</p>
+                </div>
+            </section>
+        </div>
+        <div class="contentbox-forecast">
+                <h2>5 Days Forecast</h2>
+                <div class="flex">
+                    <div class="flex-col">
+                        <span id="dayofweek1"></span>
+                        <img src="images/forecasticon.png" alt="cicon">
+                        <span id="forecast1"></span>&deg;F
+                    </div>
+                    <div class="flex-col">
+                        <span id="dayofweek2"></span>
+                        <img src="images/forecasticon.png" alt="cicon">
+                        <span id="forecast2"></span>&deg;F
+                    </div>
+                    <div class="flex-col">
+                        <span id="dayofweek3"></span>
+                        <img src="images/forecasticon.png" alt="cicon">
+                        <span id="forecast3"></span>&deg;F
+                    </div>
+                    <div class="flex-col">
+                        <span id="dayofweek4"></span>
+                        <img src="images/forecasticon.png" alt="cicon">
+                        <span id="forecast4"></span>&deg;F
+                    </div>
+                    <div class="flex-col">
+                        <span id="dayofweek5"></span>
+                        <img src="images/forecasticon.png" alt="cicon">
+                        <span id="forecast5"></span>&deg;F
+                    </div>
+                </div>
+        </div>
+        <article class="article-preston">
+            <h3>Preston Idaho</h3>
+            <img class="imgarticle" src="images/large-hero.jpg" alt="imagearticle">
+            <p>Celsius (C) and Fahrenheit (F). The United States uses the Fahrenheit system; in other parts of the world, Celsius is used. Almost all scientists measure temperature using the Celsius scale.
+                Temperature is a relative measurement. An afternoon at 70 degrees Fahrenheit, for example, would seem cool after several days of 95 degrees Fahrenheit, but it would seem warm after temperatures around 32 degrees Fahrenheit. The coldest weather usually happens near the poles, while the warmest weather usually happens near the Equator.
+                Atmospheric pressure is the weight of the atmosphere overhead. Changes in atmospheric pressure signal shifts in the weather. A high-pressure system usually brings cool temperatures and clear skies. A low-pressure system can bring warmer weather, storms, and rain.
+            </p>
+            </article>
+        <div class="contentbox">
+                <img class="cimage" src="images/PrestonIdaho2.jpg" alt="Prestonmap">
+                <div>   
+                    <h2>Preston Idaho</h2>
+                    <p>Adress: 123 Place Way</p>
+                    <p>atmosfered.com</p>
+                    <p>follow us:</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/">
+                        <img
+                            src="images/facebookicon.png"
+                            alt="facebook icon">
+                        </a>
+                        <a href="https://www.youtube.com/">
+                        <img
+                            src="images/youtubeicon.png"
+                            alt="youtube icon">
+                        </a>
+                        <a href="https://www.pinterest.com/ ">
+                        <img
+                            src="images/pinteresticon.png"
+                            alt="pinterest icon">
+                        </a>
+                        <a href="https://www.instagram.com/">
+                        <img
+                            src="images/instaicon.png"
+                            alt="instagram icon">
+                        </a>
+                        <a href="https://twitter.com/">
+                        <img
+                            src="images/twittericon.png"
+                            alt="twiter icon">
+                        </a>
+                    </div>
+            </div>        
+        </div> 
+    </main>
+    <footer>
+        &copy; <span id="Ayear"></span> | Juan Jose Lozano Ochoa | Perú |  <a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        <br> Last Updated: <span id="last-update"></span>
+    </footer>
+    <script src="windchill.js"></script>
+</body>
+</html>
