@@ -104,7 +104,9 @@ main {
     color: #f7fff7;
     border-radius: 4px;
 }
-/*-------------forecast----------*/
+
+
+/*------------------------------forecast-----------------------------*/
 .contentbox-forecast {
     display: block;
     margin-bottom: 0 ;
@@ -147,7 +149,7 @@ main {
     font-weight: 700;
 	font-size: 1rem;
 }
-img {
+.contentbox2 img {
    padding: 0.25rem;
 }
 #forecast1, #forecast2, #forecast3, #forecast4, #forecast5  {
@@ -156,6 +158,8 @@ img {
     font-size: .8rem;
     text-align: center;
 }
+
+
 
 
 /************home also****************/
@@ -182,6 +186,8 @@ img {
     padding: 0;
     margin-bottom: 3%;
 }
+
+
 
 
 
@@ -267,7 +273,11 @@ footer{
 footer a {
     text-decoration: none;
 }
-/*Contact*/
+
+
+
+
+/*-------------------------Contact------------------------*/
 
 .main-gallery {
     background: #f7fff7;
