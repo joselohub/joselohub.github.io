@@ -95,11 +95,14 @@ main {
     font-family: 'Balsamiq Sans', cursive;
     color: rgb(65, 64, 64);
 }
-
+.article-preston{
+    margin: 4%;
+    padding: 10px;
+}
 .contentbox {
     display:block;
     margin: 10px auto;
-    
+   
     background-color: #4ecdc4;
     color: #f7fff7;
     border-radius: 4px;
@@ -205,9 +208,9 @@ h3 {
     color: rgb(65, 64, 64);
 }
 
-.imgarticle {
-    width: 50%;
-    float: left;
+.article-preston .imgarticle {
+    max-width: 100%;
+    
     
 }
 

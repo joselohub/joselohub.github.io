@@ -36,8 +36,13 @@
 
     /*-------------------main-----------------------*/
    .article-preston {
-    margin: 10px auto;
+   margin:  30px auto;
+    
     max-width: 960px;
+    padding: 60px;
+   }
+   .article-preston .imgarticle{
+        float:left
    }
     .contentbox-forecast {
         margin: 10px auto;
@@ -80,7 +85,9 @@
     }
     .contentbox{
     margin: 10px auto;
+    margin-bottom: 10px;
     max-width: 960px;
+    padding-top: 10px;
     }
     /*****************gallery***********************/
     .figureplaceholder:hover {
