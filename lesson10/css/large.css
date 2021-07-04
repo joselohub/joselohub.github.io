@@ -35,10 +35,10 @@
 
 
     /*-------------------main-----------------------*/
-    .contentbox {
-        margin: 10px auto;
-        max-width: 960px;
-    }
+   .article-preston {
+    margin: 10px auto;
+    max-width: 960px;
+   }
     .contentbox-forecast {
         margin: 10px auto;
         max-width: 960px;
@@ -78,7 +78,10 @@
         padding: 0;
         margin-bottom: 2%;
     }
-    
+    .contentbox{
+    margin: 10px auto;
+    max-width: 960px;
+    }
     /*****************gallery***********************/
     .figureplaceholder:hover {
         box-shadow: 0 0 50px #333;
