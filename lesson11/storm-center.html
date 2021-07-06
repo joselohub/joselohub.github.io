@@ -45,13 +45,12 @@
                 <label class="top">Full Name*<input type="text" name="full-name" placeholder="Full Name" required pattern="[A-Za-z]{5}"></label>
                 <label class="top">Email*<input type="email" id="email" placeholder="someone@gmail.com" required></label>
                 <label class="top">Phone*<input type="tel" name="phone" placeholder="555-555-5555"  required pattern="(^(1?)(\s?)([\s]?)((\(\d{3}\))|(\d{3}))([\s]?)([\s-]?)(\d{3})([\s-]?)(\d{4})+$)"></label>
-                <label class="top" for="zip">Zip Code<input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)">
-                </label>
+                <label class="top" for="zip">Zip Code<input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)"></label>
             </fieldset>
             <fieldset>
                 <legend>Storm details</legend>
                 <label class="mid">Storm Date<input type="date" name="theDate"></label>
-                    <label class="mid" for="stormType">Storm type<input list="Data-list" id="stormD" name="theDate" placeholder="Storm Type"></label> 
+                    <label class="mid" for="stormType">Storm type<input list="Data-list" id="stormType" name="theDate" placeholder="Storm Type"></label> 
                     <datalist id="Data-list">
                         <option value="Flash">
                         <option value="Floot">
@@ -90,13 +89,13 @@
                 <legend>User in-danger Level</legend>
                 <div class="s-radio">Level</div>
                 <label class="mid2">
-                    <input type="radio" id="Dyes" name="dangerselelect" value="1" checked>yes</label>
+                    <input type="radio" id="Dyes" name="dangerselelect" value="1" checked>yes
                 </label>
                 <label class="mid2">
-                    <input type="radio" id="Dno" name="dangerselelect" value="2">no</label>
+                    <input type="radio" id="Dno" name="dangerselelect" value="2">no
                 </label>
                 <label class="mid2">
-                    <input type="radio" id="Dmaybe" name="dangerselelect" value="3">maybe</label>
+                    <input type="radio" id="Dmaybe" name="dangerselelect" value="3">maybe
                 </label>
             </fieldset>
             <fieldset>
