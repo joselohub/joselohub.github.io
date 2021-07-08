@@ -65,8 +65,8 @@
 
     /*contentbox2*/
     .contentbox2 .cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display:flex;
+        flex-direction: row-reverse;
         gap: 10px;
         margin: 0;
         padding: 0;

@@ -174,12 +174,18 @@ main {
     
 }
 .contentbox2 .cards {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
     gap: 10px;
     margin: 0;
     padding: 0;
 }
+.cards > section {
+    flex-direction: row;
+  }
+  section :nth-child(1) { order: 2; }
+  section :nth-child(2) { order: 3; }
+  section :nth-child(3) { order: 1; }
+      
 .contentbox2 .cards > section {
     background-color: #4ecdc4;
     border-radius: 4px;
