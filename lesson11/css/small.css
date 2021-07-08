@@ -96,8 +96,8 @@ main {
     color: rgb(65, 64, 64);
 }
 .article-preston{
-    margin: 4%;
-    padding: 10px;
+    background-color: #4ecdc4;
+    
 }
 .contentbox {
     display:block;
@@ -116,6 +116,9 @@ main {
     padding: 15px;
     
     color: #1a535c;
+}
+.imgarticle  {
+    padding: 15px;
 }
 .flex {
     display: block;
@@ -179,13 +182,6 @@ main {
     margin: 0;
     padding: 0;
 }
-.cards > section {
-    flex-direction: row;
-  }
-  section :nth-child(1) { order: 2; }
-  section :nth-child(2) { order: 3; }
-  section :nth-child(3) { order: 1; }
-      
 .contentbox2 .cards > section {
     background-color: #4ecdc4;
     border-radius: 4px;
