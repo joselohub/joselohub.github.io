@@ -96,7 +96,9 @@ main {
     color: rgb(65, 64, 64);
 }
 .article-preston{
+    text-align: left;
     background-color: #4ecdc4;
+    padding: 10px;
     
 }
 .contentbox {

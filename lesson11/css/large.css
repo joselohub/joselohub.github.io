@@ -36,22 +36,18 @@
 
     /*-------------------main-----------------------*/
    .article-preston {
-       display: flex;
+       
     margin:  15px auto;
     border-radius: 4px;
     max-width: 960px;
    
    }
    .article-preston .imgarticle{
-        float:left
+        float:left;
    }
     .contentbox-forecast {
         margin: 10px auto;
         max-width: 960px;
-    }
-    .article-preston > p {
-        
-        max-width: 600px;
     }
     .statis { 
         position: absolute;
