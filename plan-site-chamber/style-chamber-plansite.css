@@ -4,6 +4,8 @@ header ,footer {
 }
 header {
     display: flex;
+    align-self: center;
+    justify-content: center;
 }
 footer{
     color: white;
@@ -51,6 +53,7 @@ h2 {
     max-width: 980px;
     border-radius: 5px;
 }
+
 #map {
     display: flex;
     justify-content: center;
