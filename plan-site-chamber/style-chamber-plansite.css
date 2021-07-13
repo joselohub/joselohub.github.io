@@ -1,0 +1,55 @@
+header ,footer {
+    background-color: rgb(160, 115, 56);
+    text-align: center;
+}
+footer{
+    color: white;
+    padding: 20px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+main {
+    background-color: burlywood;
+    padding: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+img {
+    width: 70%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+    
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.class-header ,h1 ,h2 ,h3,p{
+  
+    padding: 10px;
+}
+h2 {
+    background: rgb(160, 115, 56); 
+    color: white;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.class-main {
+    margin: auto;
+    background:rgb(226, 207, 180) ;
+    max-width: 980px;
+    border-radius: 5px;
+}
+#map {
+    display: flex;
+    justify-content: center;
+}
+h3 {margin: auto;}
+
+#map-0 h3{
+    text-align: center;
+}
