@@ -2,6 +2,9 @@ header ,footer {
     background-color: rgb(160, 115, 56);
     text-align: center;
 }
+header {
+    display: flex;
+}
 footer{
     color: white;
     padding: 20px;
@@ -12,6 +15,7 @@ main {
     background-color: burlywood;
     padding: 10px;
     font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
     
 }
 
@@ -22,6 +26,9 @@ img {
    margin-right: auto;
 
     
+}
+#logo {
+    width: auto;
 }
 h1 {
     text-align: center;
