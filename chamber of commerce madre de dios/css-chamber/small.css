@@ -1,0 +1,40 @@
+body {
+    background-color: #f2e8cf;
+}
+header {
+    background: #6a994E;
+    padding: 10px ;
+    
+}
+footer {
+    background: #6a994E;
+    padding: 50px;
+}
+nav{
+    background-color:#6a994E;
+}
+.navigation{
+    margin: 0;
+    padding: 20px;
+}
+main {
+    background-color: #f2e8cf;
+    max-width: 980px;
+    margin: auto;
+    padding-bottom: 4px;
+  
+}
+section {
+    background-color:white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.hero-image{
+    padding: 0;
+    background-color: #f2e8cf;
+}
+picture img {
+    width: 100%;
+    border-radius:5px ;
+}
