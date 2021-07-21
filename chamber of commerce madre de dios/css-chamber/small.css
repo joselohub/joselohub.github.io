@@ -10,12 +10,36 @@ footer {
     background: #6a994E;
     padding: 50px;
 }
+/***************************nav****************************/
 nav{
     background-color:#6a994E;
+
 }
 .navigation{
     margin: 0;
     padding: 20px;
+    list-style-type: none;
+}
+.navigation li:first-child {
+    display: block;
+    text-decoration: none;
+    color:#555;
+}
+.navigation li {
+    display: none;
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(65, 64, 64);
+}
+nav ul li a:hover {
+    background-color:rgba(85,85,85); color: #ffe66d;
+}
+.responsive li {
+    display: block;
 }
 main {
     background-color: #f2e8cf;
