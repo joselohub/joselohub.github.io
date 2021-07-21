@@ -16,8 +16,9 @@ nav{
 
 }
 .navigation{
-    margin: 0;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 945px;
     list-style-type: none;
 }
 .navigation li:first-child {
@@ -36,11 +37,15 @@ nav{
     color: rgb(65, 64, 64);
 }
 nav ul li a:hover {
-    background-color:rgba(85,85,85); color: #ffe66d;
+    background-color:#386641; color:white;
+    border-radius: 5px;
 }
 .responsive li {
     display: block;
 }
+
+
+
 main {
     background-color: #f2e8cf;
     max-width: 980px;
