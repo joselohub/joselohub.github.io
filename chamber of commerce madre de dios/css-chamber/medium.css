@@ -1,5 +1,23 @@
 @media screen and (min-width:32.5em) {
 
+
+    /************section **********/
+    .company-img-style {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+
+    .propose-and-goal {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .statis{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /****************nav*************/
     .navigation {
         display: flex;
     }
@@ -12,5 +30,15 @@
     }
     .navigation li:first-child {
         display: none;
+    }
+
+    /************footer****************/
+    .footer-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 960px;
+    }
+    .social a {
+        margin:10px; 
     }
 }

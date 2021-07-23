@@ -2,18 +2,32 @@ body {
     background-color: #f2e8cf;
 }
 header {
-    background: #6a994E;
+    background: #f2e8cf;
     padding: 10px ;
+    text-align: center;
     
 }
 footer {
     background: #6a994E;
     padding: 50px;
+    font-family: 'Nunito', sans-serif;
+    color: #f2e8cf;
 }
+.footer-content{
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 /***************************nav****************************/
 nav{
     background-color:#6a994E;
-
+}
+.nav-elements-position{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
 .navigation{
     margin: 0 auto;
@@ -29,41 +43,134 @@ nav{
 .navigation li {
     display: none;
 }
+
 .navigation a {
     display: block;
     padding: 0.75rem;
     text-align: center;
     text-decoration: none;
-    color: rgb(65, 64, 64);
+    color: rgb(237, 237, 237);
+    font-family: 'Nunito', sans-serif;
 }
 nav ul li a:hover {
     background-color:#386641; color:white;
-    border-radius: 5px;
+    border-radius: 10px;
+    transition:all 0.4s linear;
 }
 .responsive li {
     display: block;
 }
 
 
-
+/*********************main*********************/
+p {
+    font-family: 'Nunito', sans-serif;
+}
 main {
     background-color: #f2e8cf;
     max-width: 980px;
     margin: auto;
     padding-bottom: 4px;
-  
+   
 }
+h1 ,h4{
+    font-family: 'Otomanopee One', sans-serif;
+    color:#555;
+}
+h3 {
+    color: #bc4749;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.company-img-style {
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+.company-img-style img {
+    margin: auto;
+}
+
 section {
     background-color:white;
     padding: 10px;
     margin: 20px;
     border-radius: 5px;
 }
+section ul li{
+    font-family: 'Nunito', sans-serif;
+}
 .hero-image{
     padding: 0;
     background-color: #f2e8cf;
 }
-picture img {
+.hero {
     width: 100%;
     border-radius:5px ;
+}
+/***************section propose and goals**************/
+.propose-and-goals {
+    display: grid;
+    grid-template-columns:  1fr;
+}
+/************contact style************/
+.contact-style img {
+   width: 30px;
+   height: 30px;
+   text-align:center ;
+   margin: 10px;
+}
+.contact-style div {
+    display: flex;
+    align-content: center;
+}
+
+/*******************weather summary*******************/
+.statis {
+    background:#f2e8cf ;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+.weatherdetails{
+    color: rgb(63, 63, 63);
+    
+}
+.weatherdetails p {
+    margin-top: .5em ;
+    margin-bottom: .5em ;
+}
+.forecast-html{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+   
+}
+.order-forecast{
+
+}
+.forecast-html p {
+    display: block;
+    max-width: 80px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+/***************button*****************/
+.button-position{
+    display: flex;
+    justify-content: center;
+}
+.sbutton {
+    border: none;
+    background-color: #bf7a7b;
+    color: white;
+    
+    border-radius: 1.5rem;
+    padding: .75rem 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+}
+.sbutton:hover{
+    background-color: #bc4749;
+    color: white;
 }

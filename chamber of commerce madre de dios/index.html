@@ -9,47 +9,52 @@
     <link rel="stylesheet" href="css-chamber/small.css">
     <link rel="stylesheet" href="css-chamber/medium.css">
     <link rel="stylesheet" href="css-chamber/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
     <script defer src="chamber.js"></script>
+    <script defer src="weather-forecast.js" ></script>
 </head>
 <body>
     <aside></aside>
     <header>
-        <picture>
-            <img src="" alt="">
-        </picture>
-        <div>
-            <h1>Madre de Dios</h1>
-            <div>
-                <h3>Chamber of Commerce</h3>
+        
+        <div class="nav-elements-position">
+            <picture>
+                <img class="logo" src="images-chamber/biological logo.png" alt="">
+            </picture>
+            <div class="title">
+                <h1>Madre de Dios</h1>
+                <h4>Chamber of Commerce</h3>
             </div>
         </div>
     </header>
     <nav>
         <ul class="navigation">
             <li><a class="pmenu" href="#">&#9776; Menu</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Madre de Dios</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="madre de dios.html">Madre de Dios</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
         <article>
             <section class="hero-image ">
                 <picture>
-                    <img src="images-chamber/guacamayo-large.jpg" alt="hero-image">
+                    <img class="hero" src="images-chamber/guacamayo-large.jpg" alt="hero-image">
+                    
                 </picture>
             </section>
-            <section>
+            <section class="company-img-style">
                 <img src="images-chamber/copazu-heladeria-web.jpg" alt="copazu-compamy">
                 <img src="images-chamber/raiforest-web.jpg" alt="rainforest-company">
                 <img src="images-chamber/manutata-web.jpg" alt="manutata-company">
             </section>
-            <section>
-                <button>Join Here</button>
+            <section class="button-position">
+                <input type="submit" value="Join" class="sbutton">
             </section>
-            <section>
+            <section class="propose-and-goals">
                 <section>
                     <h3>Propose</h3>
                     <p>promote the companies development faciliting bussines oportunities providing assitence and services and boosting its competitiveness.</p>
@@ -64,39 +69,58 @@
                         </ul>
                 </section>
             </section>
-            <section>
+            <section class="contact-style">
                 <h3>Contact Us</h3>
 
+                <div><img src="images-chamber/phone-call-icon.png" alt="" ><p> 51 (082)918 884 250</p></div>
+                <div><img src="images-chamber/location icon2.png" alt="" ><p> Calle Sauses F-4 ,Los Castaños, Tambopata ,Madre de Dios</p></div>
+                <div><img src="images-chamber/email-icon.png" alt="" ><p> mddchamberinfo@gmail.com</p></div>
             </section>
            
             <section>
                 <h3>Events</h3>
                     <ul>
-                        <li>events this monday</li>
-                        <li>events this monday</li>
-                        <li>events this monday</li>
+                        <li>June 28th-29th: Madre de Dios Cachuela Farmhouse Festival</li>
+                        <li>July 10th: Anniversary of the Foundation of Puerto Maldonado in Madre de Dios</li>
+                        <li>July 26-30: Tambopata (Puerto Maldonado) Agricultural, industrial and craft fair</li>
                     </ul>
             </section>
-            <section>
+            <section class="weather-style">
                 <h3>Weather</h3>
-                <section>
-                    Weather Summary
-                </section>
-                <section>
-                    Forecast
+                <section class="statis">
+                    <div class="weatherdetails">
+                    <h4> Today's Weather</h4>
+                        <p>Currently: <span id="currently">Overcast</span></p>
+                        <p>Temperature: <span id="current-temp"></span>&deg; F</p>
+                        <p>Humidity: <span id="humidity-preston"></span>%</p>
+                        <p>Wind Chill: <span id="wind-chill"></span>N/A</p>
+                        <p>Wind Speed: <span id="wind-speed"></span>mph</p>
+                    </div>
+                    <div class="order-forecast">
+                        <h4>forecast</h4>
+                        <div class="forecast-html">
+                            <p><span id="dayofweek1"></span><img class="forec" src="images-chamber/forecasticon.png" alt="imgforecast"><span id="forecast1"></span>&deg; F</p>
+                            <p><span id="dayofweek2"></span><img class="forec" src="images-chamber/forecasticon.png" alt="imgforecast"><span id="forecast2"></span>&deg; F</p>
+                            <p><span id="dayofweek3"></span><img class="forec" src="images-chamber/forecasticon.png" alt="imgforecast"><span id="forecast3"></span>&deg; F</p>
+                        </div>
+                    </div>
                 </section>
             </section>
         </article>
     </main>
     <footer>
+        <div class="footer-content">
             <div class="social">
                 <a href="https://www.facebook.com/"><img src="images-chamber/facebookicon.png" alt="facebook icon"></a>
                 <a href="https://www.youtube.com/"><img src="images-chamber/youtubeicon.png" alt="youtube icon"></a>
                 <a href="https://www.pinterest.com/ "><img src="images-chamber/pinteresticon.png" alt="pinterest icon"></a>
                 <a href="https://twitter.com/"><img src="images-chamber/twittericon.png" alt="twiter icon"></a>
             </div>
-        &copy; <span id="Ayear"></span> | Juan Jose Lozano Ochoa | Perú |  <a href="https://www.byui.edu/online">BYU-Idaho Online</a>
-        <br> last Updated: <span id="last-update"></span>
+            <div>
+                &copy; <span id="Ayear"></span> | Juan Jose Lozano Ochoa | Perú |  <a href="https://www.byui.edu/online">BYU-Idaho Online</a>
+                <br> last Updated: <span id="last-update"></span>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
