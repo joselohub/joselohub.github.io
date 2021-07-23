@@ -145,9 +145,7 @@ section ul li{
     gap: 10px;
    
 }
-.order-forecast{
 
-}
 .forecast-html p {
     display: block;
     max-width: 80px;
@@ -174,3 +172,49 @@ section ul li{
     background-color: #bc4749;
     color: white;
 }
+/****************mdd history****************/
+.history-mdd {
+
+    float: right;
+    
+}
+.hero-mdd{
+    margin: auto;
+}
+/****************gallery***************/
+
+.social a {
+    text-decoration: none;
+    text-align: right;
+}
+.gallery-07{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+ 
+
+.figureplaceholder {
+    border: 2px solid #bbb;
+    padding:5px;
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-07 img {
+    width:100%;
+    padding: 0;
+   
+
+}
+
+.gallery-07 img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+
+.gallery-07   img {
+    filter: blur(0em);
+    transition: filter 1s;
+  }

@@ -1,0 +1,12 @@
+@media only screen and (min-width: 64rem) {
+    .company-img-style {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+/*****************gallery*****************/
+    .gallery-07{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

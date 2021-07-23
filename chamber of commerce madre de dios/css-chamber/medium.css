@@ -41,4 +41,9 @@
     .social a {
         margin:10px; 
     }
+    /****************gallery*************/
+    .gallery-07{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
