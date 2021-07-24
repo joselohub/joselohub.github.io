@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css-chamber/small.css">
     <link rel="stylesheet" href="css-chamber/medium.css">
     <link rel="stylesheet" href="css-chamber/large.css">
+    <link rel="stylesheet" href="css-chamber/join.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
     <script defer src="chamber.js"></script>
@@ -39,7 +40,24 @@
         </ul>
     </nav>
     <main>
-       
+        <section>
+           <h4>Contact Form </h4> 
+        <form method="GET" action="thanks.html">
+            <fieldset>
+                <legend><h3>Personal Information</h3></legend>
+                <label class="top">First Name*<input type="text" name="full-name" placeholder="First Name" required pattern="[A-Za-z]{5}"></label>
+                <label class="top">Last Name*<input type="text" name="last-name" placeholder="Last Name" required pattern="[A-Za-z]{5}"></label>
+                <label class="top">Title*<input type="text" name="tittle" placeholder="First Name" required pattern="[A-Za-z]{5}"></label>
+                <label class="top">Email*<input type="email" id="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Cell Phone*<input type="tel" name="phone"placeholder="555-555-5555"  required pattern="(^(1?)(\s?)([\s]?)((\(\d{3}\))|(\d{3}))([\s]?)([\s-]?)(\d{3})([\s-]?)(\d{4})+$)"></label>
+                
+            </fieldset>
+            <div class="buttons bottom">
+
+                <input type="submit" class="sbutton">
+            </div>
+        </form>
+        </section>
     </main>
     <footer>
         <div class="footer-content">
