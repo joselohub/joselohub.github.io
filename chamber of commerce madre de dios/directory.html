@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="css-chamber/small.css">
     <link rel="stylesheet" href="css-chamber/medium.css">
     <link rel="stylesheet" href="css-chamber/large.css">
+    <link rel="stylesheet" href="directory.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
     <script defer src="chamber.js"></script>
+    <script defer src="js/directory.js"></script>
     <script defer src="weather-forecast.js" ></script>
 </head>
 <body>
@@ -37,26 +39,43 @@
         </ul>
     </nav>
     <main>
-        <img src="" alt="">
-        <article>
-            <section>
-                <picture>
-                    <img src="" alt="">
-                </picture>
-            </section>
-            <section>
-                <h3></h3>
-            </section>
-            <section>
-                <h3></h3>
-            </section>
-            <section>
-                <h3></h3>
-            </section>
-            <section>
-                <h3></h3>
-            </section>
-        </article>
+        <section class="hero-image ">
+            <picture>
+                <img class="hero" src="images-chamber/guacamayo-large.jpg" alt="hero-image">
+                
+            </picture>
+        </section>
+        <section>
+            <h2>Bussines Directory</h2>
+            <div id="btnContainer">
+                <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button> 
+                <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+            </div>
+            <br>
+
+            <div class="row">
+            <div class="column" >
+                <h2>Column 1</h2>
+                <p>Some text..</p>
+            </div>
+            <div class="column" >
+                <h2>Column 2</h2>
+                <p>Some text..</p>
+            </div>
+            </div>
+
+            <div class="row">
+            <div class="column">
+                <h2>Column 3</h2>
+                <p>Some text..</p>
+            </div>
+            <div class="column">
+                <h2>Column 4</h2>
+                <p>Some text..</p>
+            </div>
+            </div>
+
+        </section>
     </main>
     <footer>
         <div class="footer-content">

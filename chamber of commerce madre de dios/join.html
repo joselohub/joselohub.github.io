@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css-chamber/small.css">
     <link rel="stylesheet" href="css-chamber/medium.css">
     <link rel="stylesheet" href="css-chamber/large.css">
+    <link rel="stylesheet" href="css-chamber/join.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
     <script defer src="chamber.js"></script>
@@ -37,26 +38,114 @@
         </ul>
     </nav>
     <main>
-        <img src="" alt="">
-        <article>
-            <section>
-                <picture>
-                    <img src="" alt="">
-                </picture>
-            </section>
-            <section>
-                <h3></h3>
-            </section>
-            <section>
-                <h3></h3>
-            </section>
-            <section>
-                <h3></h3>
-            </section>
-            <section>
-                <h3></h3>
-            </section>
-        </article>
+       <article>
+        <section class="hero-image ">
+            <picture>
+                <img class="hero" src="images-chamber/guacamayo-large.jpg" alt="hero-image">
+            </picture>
+        </section>
+        <section>
+            <form method="GET" action="thanks.html">
+                <fieldset>
+                    <legend><h3>Personal Information</h3></legend>
+                    <label class="top">First Name*<input type="text" name="full-name" placeholder="First Name" required pattern="[A-Za-z]{5}"></label>
+                    <label class="top">Last Name*<input type="text" name="last-name" placeholder="Last Name" required pattern="[A-Za-z]{5}"></label>
+                    <label class="top">Title*<input type="text" name="tittle" placeholder="First Name" required pattern="[A-Za-z]{5}"></label>
+                    <label class="top">Email*<input type="email" id="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Cell Phone*<input type="tel" name="phone"placeholder="555-555-5555"  required pattern="(^(1?)(\s?)([\s]?)((\(\d{3}\))|(\d{3}))([\s]?)([\s-]?)(\d{3})([\s-]?)(\d{4})+$)"></label>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Bussines Information</legend>
+                    <label class="top">Bussines Name*<input type="text" name="bussines-name" placeholder="Bussines Name" required pattern="[A-Za-z]{3-10}"></label>
+                    <label class="top">Bussines Adress*<input type="text" name="bussines-adress" placeholder="Bussines Adress" required pattern="[A-Za-z]{3-10}"></label>
+                    <label class="top" for="url">Bussines Web Page*<input type="url" name="url" id="url"placeholder="https://example.com"pattern="https://.*" size="30"required></label>
+                </fieldset>
+                <fieldset class="nestedfieldset">
+                    <legend><h3>Membership Level</h3> </legend>
+                    <div class="selection">
+                        <input type="radio" id="level1" name="member-level" value="1" checked> <label for="level1"> Non-profit ($100)</label>
+                    </div>
+
+                    <div class="selection">
+                        <label><input type="radio"id="level2" name="member-level" value="2"> Bronze ($200)</label>
+                    </div>
+
+                    <div class="selection">
+                        <input type="radio" id="level3" name="member-level" value="3">
+                        <label for="level3"> Silver ($400)</label>
+                    </div>
+
+                    <div class="selection">
+                        <input type="radio" id="level4" name="member-level" value="4">
+                        <label for="level4"> Gold ($1000)</label>
+                    </div>
+                    <h4>Membership level</h4>
+                    <p>Basic Benefits</p>
+                        <ul>
+                            <li>Access to Chamber programs to accelerate business growth</li>
+                            <li>Website directory listing</li>
+                            <li>Member rates to all events</li>
+                            <li>15% discount on Chamber meeting room rentals</li>
+                            <li>Calgary Chamber member logo, member certificate and window decal</li>
+                        </ul>
+                        <p>Non-profit ($100)</p>
+                            <ul>
+                                <li>Access to Chamber programs to accelerate business growth</li>
+                                <li>Website directory listing</li>
+                                <li>Member rates to all events</li>
+                                <li>15% discount on Chamber meeting room rentals</li>
+                                <li>Calgary Chamber member logo, member certificate and window decal</li>
+                                <li>Access to Bottom Line Boosters (including Chamber Insurance)</li>
+                                <li>Access to private Chamber member LinkedIn group</li>
+                                
+                            </ul>
+                        <p>Bronze ($200)</p>
+                            <ul>
+                                <li>Access to Chamber programs to accelerate business growth</li>
+                                <li>Website directory listing</li>
+                                <li>Member rates to all events</li>
+                                <li>15% discount on Chamber meeting room rentals</li>
+                                <li>Calgary Chamber member logo, member certificate and window decal</li>
+                                <li>Access to Bottom Line Boosters (including Chamber Insurance)</li>
+                                <li>Access to private Chamber member LinkedIn group</li>
+                                <li>Invitation to attend Business After Hours </li>
+                            </ul>
+                        <p>Silver ($400)</p>
+                            <ul>
+                                <li>Access to Chamber programs to accelerate business growth</li>
+                                <li>Website directory listing</li>
+                                <li>Member rates to all events</li>
+                                <li>15% discount on Chamber meeting room rentals</li>
+                                <li>Calgary Chamber member logo, member certificate and window decal</li>
+                                <li>Access to Bottom Line Boosters (including Chamber Insurance)</li>
+                                <li>Access to private Chamber member LinkedIn group</li>
+                                <li>Invitation to attend Business After Hours </li>
+                                <li>Two tickets to a networking event (Business After Hours, the 403)</li>
+                            </ul>
+                        <p>Gold ($1000)</p>
+                            <ul>
+                                <li>Access to Chamber programs to accelerate business growth</li>
+                                <li>Website directory listing</li>
+                                <li>Member rates to all events</li>
+                                <li>15% discount on Chamber meeting room rentals</li>
+                                <li>Calgary Chamber member logo, member certificate and window decal</li>
+                                <li>Access to Bottom Line Boosters (including Chamber Insurance)</li>
+                                <li>Access to private Chamber member LinkedIn group</li>
+                                <li>Invitation to attend Business After Hours </li>
+                                <li>Two tickets to a networking event (Business After Hours, the 403)</li>
+                                <li>Four tickets to the Calgary Small Business Expo</li>
+                                <li>Opportunity to host Business After Hours </li>
+                                <li>Subscription to Influence, Pulse and Business in Calgary</li>
+                            </ul>
+                </fieldset>
+                <div class="buttons bottom">
+
+                    <input type="submit" class="sbutton">
+                </div>
+            </form>
+        </section>
+       </article>
     </main>
     <footer>
         <div class="footer-content">
